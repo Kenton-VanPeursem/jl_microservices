@@ -1,0 +1,7 @@
+name = "Adar"
+uuid = "bc1ef507-040d-440b-a120-05fd448e7476"
+authors = ["Kenton Van Peursem <kentonvanp@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"

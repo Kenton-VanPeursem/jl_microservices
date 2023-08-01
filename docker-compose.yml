@@ -1,0 +1,16 @@
+services:
+  master:
+    build: .
+    environment:
+      - SERVICE=server
+    healthcheck:
+      test: ls healthcheck || exit 1
+    expose:
+      - "8081"
+  worker:
+    build: .
+    environment:
+      - SERVICE=client
+    depends_on:
+      master:
+        condition: service_healthy

@@ -1,0 +1,7 @@
+name = "Orc"
+uuid = "03d9db8a-4ca5-44f4-97ee-9cc408075853"
+authors = ["Kenton Van Peursem <kentonvanp@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
